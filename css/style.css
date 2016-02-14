@@ -1,0 +1,58 @@
+h1{
+  color:gray;
+  font: monospace;
+}
+
+h2{
+  color:gray;
+  font: monospace;
+}
+.link-color{
+  color: ;
+}
+
+.page-divs{
+  height:500px;
+}
+
+.my-image{
+  width:200px;
+}
+
+.menubar{
+  font-size:15pt;
+  text-align:;
+  color: #;
+  background:;
+}
+body{
+  margin-top:60px;
+  background-image: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/free-pictures-download-websites.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#home{
+  background:;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+#aboutme{
+  background:;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+#portfolio{
+  background:;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+#contact{
+  background:;
+  margin-left:250px;
+  margin-right:250px;
+}
