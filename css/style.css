@@ -1,13 +1,8 @@
 h1 {
-  color: gray;
-  font: monospace;
   text-align: center;
 }
 
-h2 {
-  color: gray;
-  font: monospace;
-}
+
 
 hr {
   display: block;
@@ -19,32 +14,29 @@ hr {
   border-width: 2px;
 }
 
-.link-color {
-  color: ;
-}
-
 .page-divs {
-  height: 500px;
+  height: 1000px;
 }
 
 .my-image {
   width: 200px;
 }
-
+.thumb-nail{
+  width: 200px;
+  height: 200px
+}
 .menubar {
   font-size: 15pt;
-  text-align: ;
-  color: #;
   background: transparent;
 }
 
 body {
   margin-top: 60px;
-  background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/01/free-website-wallpaper-background-download-widescreen-wallpapers-wallpaper-website-background-free-download-widescreen-wallpapers.jpg");
+  background-image: url("http://freedomreply.com/wp-content/uploads/2014/07/Free-Download-Background-Images-For-Website-Design-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  color: gray;
+  color: white;
 }
 
 #home {
@@ -69,5 +61,8 @@ body {
   background: ;
   margin-right: 25%;
   margin-left: 25%;
-  margin-bottom: 5%;
+}
+
+#all{
+  color: white;
 }
