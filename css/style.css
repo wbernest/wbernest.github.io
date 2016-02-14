@@ -1,70 +1,73 @@
-h1{
-  color:gray;
+h1 {
+  color: gray;
   font: monospace;
-  text-align:center;
+  text-align: center;
 }
 
-h2{
-  color:gray;
+h2 {
+  color: gray;
   font: monospace;
 }
-hr { 
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 2px;
-} 
-.link-color{
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
+.link-color {
   color: ;
 }
 
-.page-divs{
-  height:500px;
+.page-divs {
+  height: 500px;
 }
 
-.my-image{
-  width:200px;
+.my-image {
+  width: 200px;
 }
 
-.menubar{
-  font-size:15pt;
-  text-align:;
+.menubar {
+  font-size: 15pt;
+  text-align: ;
   color: #;
-  background:;
+  background: transparent;
 }
-body{
-  margin-top:60px;
+
+body {
+  margin-top: 60px;
   background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/01/free-website-wallpaper-background-download-widescreen-wallpapers-wallpaper-website-background-free-download-widescreen-wallpapers.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  color: gray;
 }
 
-#home{
+#home {
   background: ;
-  margin-right:600px;
-  margin-left:600px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
-#aboutme{
+#aboutme {
   background: ;
-  margin-right:600px;
-  margin-left:600px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
-#portfolio{
+#portfolio {
   background: ;
-  margin-right:600px;
-  margin-left:600px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
-#contact{
+#contact {
   background: ;
-  margin-right:600px;
-  margin-left:600px;
-  margin-top:10px;
-  margin-bottom:20px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 5%;
 }
