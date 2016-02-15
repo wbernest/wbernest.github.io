@@ -1,58 +1,33 @@
-h1{
-  color:gray;
-  font: monospace;
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
 }
 
-h2{
-  color:gray;
-  font: monospace;
-}
-.link-color{
-  color: ;
+.parent {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
 
-.page-divs{
-  height:500px;
+.my-image {
+  width: 200px;
+}
+.thumb-nail{
+  width: 200px;
+  height: 200px
 }
 
-.my-image{
-  width:200px;
-}
-
-.menubar{
-  font-size:15pt;
-  text-align:;
-  color: #;
-  background:;
-}
-body{
-  margin-top:60px;
-  background-image: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/free-pictures-download-websites.jpg");
+body {
+  background-image: url("http://www.ttgrafix.co.uk/images/bg-main.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-}
-
-#home{
-  background:;
-  margin-left:250px;
-  margin-right:250px;
-}
-
-#aboutme{
-  background:;
-  margin-left:250px;
-  margin-right:250px;
-}
-
-#portfolio{
-  background:;
-  margin-left:250px;
-  margin-right:250px;
-}
-
-#contact{
-  background:;
-  margin-left:250px;
-  margin-right:250px;
+  background-size: 100% 100%;
+  color: white;
 }

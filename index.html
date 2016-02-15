@@ -2,13 +2,16 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>William Ernest</title>
+    <title>William Ernest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
     
     
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
-
         <link rel="stylesheet" href="css/style.css">
 
     
@@ -18,42 +21,88 @@
 
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" roll="navigation">
-  <div class="container-fluid menubar">
-    <ul class="nav nav-tabs navbar-left"> 
-      <li role="presentation">William B. Ernest</li>
-    </ul>
+     <div class="container-fluid" id="all">
     <ul class="nav nav-tabs navbar-right">
-      <li role="presentation"><a class="link-color" href="#home">Home</a></li>
-      <li role="presentation"><a class="link-color"href="#aboutme">About Me</a></li>
-      <li role="presentation"><a class="link-color"href="#portfolio">Portfolio</a></li>
-      <li role="presentation"><a class="link-color"href="#contact">Contact</a></li>
+      <li role="presentation"><a data-toggle="tab" style="color: white" href="#home">Home</a></li>
+      <li role="presentation"><a data-toggle="tab" style="color: white" href="#aboutme">About Me</a></li>
+      <li role="presentation"><a data-toggle="tab" style="color: white" href="#portfolio">Portfolio</a></li>
+      <li role="presentation"><a data-toggle="tab" style="color: white" href="#contact">Contact</a></li>
     </ul>
-  </div>
-</nav>
-<div class="page-divs" id="home">
-  <h1>William Ernest</h1>
-  <img class="my-image" src="https://avatars3.githubusercontent.com/u/11617314?v=3&s=460">
-</div>
-<div class="page-divs" id="aboutme">
-  <h2>About Me</h2>
-</div>
-<div class="page-divs" id="portfolio">
-  <h2>Portfolio</h2>
-</div>
-<div class="page-divs" id="contact">
-  <h2>Contact</h2>
-  <p>Feel free to email me at: </p>
-  <p>wbernest@gmail.com</p>
-  <p>wbe14b@my.fsu.edu</p>
-  <a href="https://www.linkedin.com/pub/william-ernest/80/801/816">
+    <div class="parent tab-content">
+      <div class="tab-panel fade in active" id="home">
+        <h1 style="text-align: center">William Ernest</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-4">
+            <a style="color: white" href="https://www.linkedin.com/in/william-ernest-81680180" target="_blank" class="btn btn-secondary btn-lg active btn-block" role="button">LinkedIn</a>
+          </div>
+          <div class="col-xs-4">
+            <a style="color: white" href="https://github.com/wbernest" target="_blank" class="btn btn-secondary btn-lg btn-block" role="button">GitHub</a>
+          </div>
+          <div class="col-xs-4">
+            <a style="color: white" href="http://www.freecodecamp.com/wbernest" target="_blank" class="btn btn-lg active btn-block" role="button">FreeCodeCamp</a>
+          </div>
+        </div>
+      </div>
       
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View William Ernest's profile on LinkedIn">
-        
-    </a>
-</div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      
+      <div id="aboutme" class="tab-pane fade">
+        <h2>About Me</h2>
+        <!--<hr>-->
+        <div class="row">
+          <div class="col-lg-8">
+            <p> Hello! My name is William Ernest. I live in Chattanooga, TN. I am a senior at the Florida State University in the Computer Science program. I will graduate with my second Bachelors degree on April 29, 2016. I recieved my first BS in Chemistry from the University of Tennessee Chattanooga in 2008 and have worked as a Chemistry Technician for the Tennessee Valley Authority since then. I am looking to make a move from chemistry into computer programming in the near future.</p>
+            <p>My programming skillset includes: 
 
+          </div>
+          <div class="col-lg-4">
+            <img class="my-image" src="https://avatars3.githubusercontent.com/u/11617314?v=3&s=460">
+          </div>
+        </div>
+
+
+      </div>
+      <div class="tab-pane fade" id="portfolio">
+        <h2>Portfolio</h2>
+        <!--<hr>-->
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="https://github.com/wbernest/cop4610/blob/master/proj2/myshell.c" target="_blank"><img class="thumb-nail" src="http://i1239.photobucket.com/albums/ff509/wbernest/myshell.jpg" border="0" alt=" photo myshell.jpg" /></a>
+            <p>Code for Linux Shell in C</p>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://github.com/wbernest/cda3101/blob/master/proj1/wbe14b.pr01.cpp" target="_blank"><img class="thumb-nail" src="http://i1239.photobucket.com/albums/ff509/wbernest/assembler_1.jpg" border="0" alt=" photo assembler_1.jpg" /></a>
+            <p>Code for Assembler in C++</p>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://github.com/wbernest/cda3101/blob/master/proj2/wbe14b.pr02.cpp" target="_blank"><img class="thumb-nail" src="http://i1239.photobucket.com/albums/ff509/wbernest/cache.jpg" border="0" alt=" photo cache.jpg" /></a>
+            <p>Code for a Cache simulator in C++</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact">
+        <h2>Contact</h2>
+        <!--<hr>-->
+        <p>Feel free to email me at: </p>
+        <p>wbernest@gmail.com</p>
+        <p>wbe14b@my.fsu.edu</p>
+        <h2>Social Media</h2>
+        <div class="row">
+          <div class="col-xs-4">
+            <a style="color: white" href="https://www.linkedin.com/in/william-ernest-81680180" target="_blank" class="btn btn-secondary btn-lg active btn-block" role="button">LinkedIn</a>
+          </div>
+          <div class="col-xs-4">
+            <a style="color: white" href="https://github.com/wbernest" target="_blank" class="btn btn-secondary btn-lg active btn-block" role="button">GitHub</a>
+          </div>
+          <div class="col-xs-4">
+            <a style="color: white" href="http://www.freecodecamp.com/wbernest" target="_blank" class="btn btn-secondary btn-lg active btn-block" role="button">FreeCodeCamp</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    
     
     
     
