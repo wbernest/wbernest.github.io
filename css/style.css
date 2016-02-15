@@ -16,7 +16,9 @@ hr {
 }
 
 .my-image {
-  width: 200px;
+  width: 100%;
+  position: absolute;
+  
 }
 .thumb-nail{
   width: 200px;
