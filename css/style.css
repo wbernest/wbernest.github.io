@@ -1,7 +1,3 @@
-h1 {
-  text-align: center;
-}
-
 
 hr {
   display: block;
@@ -13,8 +9,14 @@ hr {
   border-width: 2px;
 }
 
-.page-divs {
-  height: 500px;
+.parent {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.child{
+  display: table;
+  verticle-align: bottom;
 }
 
 .my-image {
@@ -24,10 +26,6 @@ hr {
   width: 200px;
   height: 200px
 }
-.menubar {
-  font-size: 15pt;
-  background: transparent;
-}
 
 body {
   background-image: url("http://www.ttgrafix.co.uk/images/bg-main.jpg");
@@ -35,33 +33,5 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 100%;
-  color: white;
-}
-
-#home {
-  vertical-align: middle;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-#aboutme {
-  background: ;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-#portfolio {
-  background: ;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-#contact {
-  background: ;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-#all{
   color: white;
 }
